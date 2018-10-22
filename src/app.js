@@ -10,16 +10,7 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 
-
 const store = configureStore();
-
-store.dispatch(addExpense({description: 'Water bill', note: 'It was an expensive month', amount: 95, createdAt: 100}));
-store.dispatch(addExpense({description: 'Emma bill', note: 'It was a very expensive month', amount: 200, createdAt: 200}));
-store.dispatch(addExpense({description: 'Rent', note: 'It was a very expensive month', amount: 50, createdAt: 600}));
-
-const state = store.getState();
-const visibleExpenses = getVisibleExpenses(state.expenses, state.filters)
-console.log(visibleExpenses);
 
 const jsx = (
     <Provider store={store}>
