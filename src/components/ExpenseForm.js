@@ -42,7 +42,7 @@ export default class ExpenseForm extends React.Component {
         if (!this.state.description || !this.state.amount) {
             this.setState(() => ({ error: 'Please provide a description and amount.'}));
         } else {
-            this.setState(() => ({error: '', description: '', amount: '', note: ''}));
+            this.setState(() => ({error: ''}));
             this.props.onSubmit({
                 description: this.state.description,
                 amount: parseFloat(this.state.amount, 10) * 100,
