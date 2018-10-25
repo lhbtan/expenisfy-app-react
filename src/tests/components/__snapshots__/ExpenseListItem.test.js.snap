@@ -14,7 +14,7 @@ exports[`should render an ExpenseListItem with input 1`] = `
     Amount: 
     2223
     , Created At: 
-    -345600000
+    December 28th, 1969
   </p>
 </div>
 `;
