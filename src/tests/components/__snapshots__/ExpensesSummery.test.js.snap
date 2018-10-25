@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly reder expenses summery with 1 expense 1`] = `
+<div>
+  <p>
+    Total of 
+    1
+     
+    expense
+    : 
+    123
+  </p>
+</div>
+`;
+
+exports[`should correctly reder expenses summery with multiple expenses 1`] = `
+<div>
+  <p>
+    Total of 
+    12
+     
+    expenses
+    : 
+    123424233
+  </p>
+</div>
+`;
