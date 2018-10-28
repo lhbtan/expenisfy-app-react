@@ -8,7 +8,7 @@ exports[`should correctly reder expenses summery with 1 expense 1`] = `
      
     expense
     : 
-    123
+    $1.23
   </p>
 </div>
 `;
@@ -21,7 +21,7 @@ exports[`should correctly reder expenses summery with multiple expenses 1`] = `
      
     expenses
     : 
-    123424233
+    $1,234,242.33
   </p>
 </div>
 `;
