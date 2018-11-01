@@ -1,27 +1,73 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should correctly reder expenses summery with 1 expense 1`] = `
-<div>
-  <p>
-    Total of 
-    1
-     
-    expense
-    : 
-    $1.23
-  </p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      Total of 
+      <span>
+        1
+      </span>
+       
+      expense
+      : 
+      <span>
+        $1.23
+      </span>
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`should correctly reder expenses summery with multiple expenses 1`] = `
-<div>
-  <p>
-    Total of 
-    12
-     
-    expenses
-    : 
-    $1,234,242.33
-  </p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      Total of 
+      <span>
+        12
+      </span>
+       
+      expenses
+      : 
+      <span>
+        $1,234,242.33
+      </span>
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
 </div>
 `;
